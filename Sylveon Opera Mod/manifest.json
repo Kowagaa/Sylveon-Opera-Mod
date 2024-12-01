@@ -1,0 +1,166 @@
+{
+    "name": "Sylveon Mod",
+    "description": "A sylveon opera mod",
+    "developer":
+    {
+        "name": "Kowaga"
+    },
+    "icons":
+    {
+        "512": "Sylveon.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "music/Bmusic.mp3"
+            ],
+            "browser_sounds":
+            {
+                "CLICK":
+                [
+                    "sound/AltCry.mp3"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sound/Cry.mp3"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sound/AltCry.mp3"
+                ],
+                "HOVER":
+                [
+                    "sound/SylveonHover.mp3"
+                ],
+                "HOVER_UP":
+                [
+                    "sound/SylveonHover.mp3"
+                ],
+                "IMPORTANT_CLICK":
+                [
+                    "sound/AltCry.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sound/level_upgrade.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sound/Cry.mp3"
+                ],
+                "LIMITER_ON":
+                [
+                    "sound/AltCry.mp3"
+                ],
+                "SWITCH_TOGGLE":
+                [
+                    "sound/AltCry.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sound/Cry.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "sound/AltCry.mp3"
+                ],
+                "TAB_SLASH":
+                [
+                    "sound/AltCry.mp3"
+                ]
+            },
+            "keyboard_sounds":
+            {
+                "TYPING_BACKSPACE":
+                [
+                    "sound/Cry.mp3"
+                ],
+                "TYPING_ENTER":
+                [
+                    "sound/SylveonHover.wav"
+                ],
+                "TYPING_LETTER":
+                [
+                    "sound/AltCry.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sound/AltCry.wav"
+                ]
+            },
+            "page_styles":
+            [
+                {
+                    "css":
+                    [
+                        "webmodding/opera.css"
+                    ],
+                    "matches":
+                    [
+                        "https://*.opera.com/*"
+                    ]
+                }
+            ],
+            "shaders":
+            {
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 300,
+                        "s": 100,
+                        "l": 70
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 272,
+                        "s": 0,
+                        "l": 0
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 180,
+                        "s": 100,
+                        "l": 70
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 272,
+                        "s": 0,
+                        "l": 0
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/anim.webm",
+                    "first_frame" : "wallpaper/ff.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#FF66FF"
+                },
+                "light":
+                {
+                    "image": "wallpaper/anim.webm",
+                    "first_frame": "wallpaper/ff.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#66FFFF"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.0"
+}
